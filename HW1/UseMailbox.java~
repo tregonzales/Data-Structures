@@ -1,0 +1,32 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class UseMailbox {
+  
+  
+  public static void main(String[] args) { 
+    
+  
+  Message m=new Message("me", "you", "hi", "whats up", "9/7");
+  Message n=new Message("me", "you", "hi", "whats up", "9/7");
+  Message a=new Message("me", "you", "hi", "whats up", "9/7");
+  Message b=new Message("me", "you", "hi", "whats up", "9/7");
+    Message e=new Message("me", "you", "hi", "whats up", "9/7");
+  Mailbox jane=new Mailbox("jane");
+  jane.receive(a);
+    jane.receive(n);
+    jane.receive(b);
+
+jane.receive(e);
+   
+
+  jane.seeMessages();
+
+  
+
+
+  
+
+  }
+  
+}
